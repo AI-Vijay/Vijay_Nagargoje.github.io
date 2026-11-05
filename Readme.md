@@ -1,5 +1,5 @@
 VIJAY BHAGWAT NAGARGOJE
-Data Scientist | Machine Learning | Data Analytics
+Data Scientist | Machine Learning | Data Analyst
 +91 8767431818 | nagargojevijay24@gmail.com | linkedin.com/in/vijay-nagargoje | github.com/AI-Vijay Portfolio: vijay-nagargoje-portfolio.tiiny.site | Chh. Sambhajinagar, Maharashtra 431001
 
 SUMMARY
