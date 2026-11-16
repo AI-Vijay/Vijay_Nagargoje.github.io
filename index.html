@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Vijay Bhagwat Nagargoje - Data Scientist, AI/ML Developer and Data Analyst. Explore my projects, skills and experience.">
-<title>Vijay Nagargoje | Data Scientist & AI/ML Developer</title>
+<meta name="description" content="Vijay Nagargoje — aspiring AI Engineer and Data Scientist. Explore FinRag, a financial-document intelligence application, alongside AI, NLP, and analytics projects.">
+<title>Vijay Nagargoje | AI Engineer & Data Scientist</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -325,6 +325,12 @@ header {
     flex-direction: column;
 }
 
+.project-card.featured {
+    grid-column: 1 / -1;
+    border-color: rgba(96,165,250,0.45);
+    background: linear-gradient(135deg, rgba(96,165,250,0.12), var(--card) 65%);
+}
+
 .project-icon {
     font-size: 1.8rem;
     color: var(--primary);
@@ -626,18 +632,18 @@ footer {
 <div class="hero-content reveal">
 
     <div class="hero-tag">
-        <i class="fas fa-circle"></i> Data Science | Artificial Intelligence
+        <i class="fas fa-circle"></i> AI Engineering | Data Science
     </div>
 
     <h1>Hi, I'm <span class="gradient-text">Vijay Nagargoje</span></h1>
 
-    <h2>Data Scientist | AI/ML Developer | Data Analyst</h2>
+    <h2>AI Engineer | Data Scientist</h2>
 
     <p>
-        Final-year Artificial Intelligence and Data Science student passionate
-        about transforming data into meaningful insights and building
-        intelligent solutions using Machine Learning, Deep Learning,
-        NLP, Generative AI and Data Analytics.
+        Final-year Artificial Intelligence and Data Science student focused on
+        building practical AI applications. I work with language models,
+        document retrieval, FastAPI and data pipelines, while applying
+        machine learning and analytics to real-world problems.
     </p>
 
     <div class="buttons">
@@ -684,15 +690,17 @@ footer {
         </p>
 
         <p>
-            My technical interests include Machine Learning, Statistical
-            Analysis, Natural Language Processing, Generative AI,
-            Data Visualization and Data Engineering.
+            My primary focus is AI Engineering, especially Generative AI,
+            retrieval-augmented generation (RAG), document intelligence,
+            APIs and applied NLP. Data Science is my second career focus.
         </p>
 
         <p>
-            I have worked on practical projects involving real-time
-            environmental monitoring, weather ETL pipelines,
-            predictive analytics and NLP applications.
+            My featured project is <a href="https://github.com/AI-Vijay/FinRag"
+            target="_blank" rel="noopener noreferrer">FinRag</a>, a financial
+            document intelligence app built with Azure OpenAI, Azure AI Search,
+            FastAPI and PostgreSQL. I have also worked on real-time environmental
+            monitoring, weather ETL, predictive analytics and NLP applications.
         </p>
 
         <p>
@@ -720,7 +728,7 @@ footer {
 
         <div class="info-item">
             <h4><i class="fas fa-briefcase"></i> Career Interest</h4>
-            <p>Data Science / Data Analytics / AI & ML</p>
+            <p>AI Engineer (primary) / Data Scientist (secondary)</p>
         </div>
     </div>
 </div>
@@ -750,8 +758,8 @@ footer {
 
     <div class="skill-card reveal">
         <i class="fas fa-robot"></i>
-        <h3>Generative AI</h3>
-        <p>GPT-4o, Google Gemini, DeepSeek R1, Prompt Engineering, RAG, Conversational AI.</p>
+        <h3>AI Engineering & Generative AI</h3>
+        <p>Azure OpenAI, Azure AI Search, Embeddings, RAG, FastAPI, GPT-4o, Google Gemini, Prompt Engineering.</p>
     </div>
 
     <div class="skill-card reveal">
@@ -763,13 +771,13 @@ footer {
     <div class="skill-card reveal">
         <i class="fas fa-database"></i>
         <h3>Databases & ETL</h3>
-        <p>SQL, MySQL, Snowflake, ETL Pipeline Design, REST API Integration.</p>
+        <p>PostgreSQL, SQL, MySQL, Snowflake, ETL Pipeline Design, REST API Integration.</p>
     </div>
 
     <div class="skill-card reveal">
         <i class="fas fa-cloud"></i>
         <h3>Cloud & Development</h3>
-        <p>AWS, Oracle OCI, Google Cloud Basics, Docker, Git, GitHub, Linux, Streamlit, Flask.</p>
+        <p>Microsoft Azure, AWS, Oracle OCI, Docker, Git, GitHub, Linux, FastAPI, Streamlit, Flask.</p>
     </div>
 
 </div>
@@ -784,6 +792,25 @@ footer {
 <p class="section-subtitle">Some of my practical development and research work</p>
 
 <div class="projects-grid">
+
+    <div class="project-card featured reveal">
+        <div class="project-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+        <h3>FinRag — AI-Powered Financial Document Intelligence</h3>
+        <p>
+            Built a financial-report intelligence application with PDF ingestion,
+            document chunking, Azure OpenAI embeddings, and Azure AI Search indexing.
+            Integrated AI-assisted financial Q&amp;A and KPI extraction with a FastAPI
+            backend, PostgreSQL storage, and an interactive financial dashboard.
+        </p>
+        <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>Azure OpenAI</span>
+            <span>Azure AI Search</span><span>RAG</span><span>PostgreSQL</span>
+        </div>
+        <a class="project-link" href="https://github.com/AI-Vijay/FinRag"
+           target="_blank" rel="noopener noreferrer">
+            Explore FinRag on GitHub <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
 
     <div class="project-card reveal">
         <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
@@ -1056,8 +1083,8 @@ footer {
     <h2>Get In Touch</h2>
 
     <p>
-        I am interested in Data Science, Data Analytics,
-        Artificial Intelligence and Machine Learning opportunities.
+        I am looking for AI Engineer opportunities first and Data Scientist
+        roles second, with a focus on Generative AI, RAG, NLP and machine learning.
         Feel free to reach out!
     </p>
 
